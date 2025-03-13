@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,3 +29,43 @@ td, th {
   padding: 10px;
 }
 
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%); 
+  --stone-150: hsl(30, 18%, 87%); 
+  --stone-600: hsl(30, 10%, 34%); 
+  --stone-900: hsl(24, 5%, 18%); 
+  --brown-800: hsl(14, 45%, 36%); 
+  --rose-800: hsl(332, 51%, 32%); 
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+  color: var(--stone-600);
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+main {
+  background-color: var(--white);
+  padding: 40px 32px;
+}
+
+.recipe {
+  .recipe__title {
+    font-family: "Young Serif", serif;
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: normal;
+    text-wrap: balance;
+  }
+}
+
+section:not(:last-of-type)  {
+  padding: 32px 0;
+}
+
+section:last-of-type {
+  padding-top: 32px;
+}
