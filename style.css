@@ -57,11 +57,8 @@ main {
 
   @media (min-width: 768px) {
     margin: 0 75px 128px 75px;
-    /* margin: 128px 75px 0 75px; */
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    
-    
   }
 
   @media (min-width: 1024px) {
@@ -87,17 +84,15 @@ header {
   }
 }
 
-.recipe {
-  .recipe__title {
-    font-family: "Young Serif", serif;
-    font-size: 36px;
-    line-height: 100%;
-    font-weight: normal;
-    padding-bottom: 24px;
+.recipe__title {
+  font-family: "Young Serif", serif;
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: normal;
+  padding-bottom: 24px;
 
-    @media (min-width: 768px) {
-      font-size: 40px;
-    }
+  @media (min-width: 768px) {
+    font-size: 40px;
   }
 }
 
@@ -142,8 +137,6 @@ h2:not(.preparation-time__title) {
   }
 }
 
-
-
 .ingredients__list, .instructions__list {
   list-style-type: disc;
   display: grid;
@@ -161,8 +154,6 @@ strong {
 
 .nutrition__table {
   width: 100%;
-  /* border-collapse: collapse; */
-  /* background-color: aliceblue; */
 
   td {
     border: none;
